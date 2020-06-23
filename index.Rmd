@@ -1,6 +1,6 @@
 ---
-title: "Willian's CV"
-author: Willian Vieira
+title: "Benjamin's CV"
+author: Benjamin Mercier
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -34,40 +34,34 @@ Aside
 Contact {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> w.vieiraw@gmail.com
-- <i class="fa fa-twitter"></i> [WillVieira90](https://twitter.com/willvieira90)
-- <i class="fa fa-github"></i> [WillVieira](https://github.com/willvieira)
-- <i class="fa fa-globe"></i> [willvieira.github.io/](https://willvieira.github.io/)
+- <i class="fa fa-envelope"></i> benjamin.b.mercier@usherbrooke.ca
+- <i class="fa fa-twitter"></i> [BenMerSci](https://twitter.com/BenMerSci)
+- <i class="fa fa-github"></i> [BenMerSci](https://github.com/BenMerSci)
 - <i class="ai ai-google-scholar"></i> [Publications](https://scholar.google.com/citations?user=GyChlIoAAAAJ&hl=en)
-- <i class="ai ai-orcid"></i> [0000-0003-0283-4570](https://orcid.org/0000-0003-0283-4570)
+- <i class="ai ai-orcid"></i> [0000-0002-4104-9463](https://orcid.org/0000-0002-4104-9463)
 
 
 Quantitative skills
 ------------------------------------
 
-Regression, Mathematical modelling, Random Forest, Hierarchical models, Bayesian statistics
+Regression, Basic knowledge in different modelling techniques (RandomForest, SDM, JSDM)
 
 
 Programming skills
 ------------------------------------
 
-<span style="font-weight:600;">Data analysis</span>: <br>R, Python, Stan, HPC<br>
+<span style="font-weight:600;">Data analysis</span>: <br>R - 60%, <br>Julia - 15%<br>
 
-<span style="font-weight:600;">Data base</span>: SQLite<br>
+<span style="font-weight:600;">Data base</span>: SQLite (Basic knowledge)<br>
 
-<span style="font-weight:600;">Automation/reports</span>: <br>markdown, pandoc,<br>LateX, bash, makefile<br> 
-
-<span style="font-weight:600;">Web</span>: HTML/CSS, ShinyApp<br>
-
-<span style="font-weight:600;">Dev (CI/CD)</span>: Git, Docker, Travis, GitHub Actions, AppVeyor
+<span style="font-weight:600;">Automation/reports</span>: <br>Rmarkdown, Git, bash<br> 
 
 
 Languages
 ------------------------------------
 
-**Portuguese**<span style="font-size:11px;"> Native</span><br>
-**French**<span style="font-size:11px;"> Full Professional</span><br>
-**English**<span style="font-size:11px;"> Professional</span><br>
+**French**<span style="font-size:11px;"> Native</span><br>
+**English**<span style="font-size:11px;"> Full Professional</span><br>
 
 
 Disclaimer {#disclaimer}
@@ -75,21 +69,21 @@ Disclaimer {#disclaimer}
 
 Made with [**pagedown**](https://github.com/rstudio/pagedown).
 
-The source code is available at [github.com/willvieira/cv](https://github.com/willvieira/cv).
+The source code is available at [github.com/BenMerSci/cv](https://github.com/BenMerSci/cv).
 
 Last updated on `r Sys.Date()`.
 
-[<i class='fas fa-download'></i> Download a PDF of this CV](https://willvieira.github.io/cv/WillianVieira.pdf)
+[<i class='fas fa-download'></i> Download a PDF of this CV](https://willvieira.github.io/cv/BenMerSci.pdf)
 
 
 Main
 ================================================================================
 
- <span style="font-weight:600">Willian Vieira</span> <span style="font-size: 13px;">PhD candidate</span>{#title}
+ <span style="font-weight:600">BenMerSci</span> <span style="font-size: 13px;">B.Sc. in Ecology</span>{#title}
 --------------------------------------------------------------------------------
 
 
-<span style="font-size: 1rem;">< <i class="fa fa-chart-bar"></i> + <i class="fa fa-robot"></i> >  Quantitative ecologist | I like to automate everything </span>
+<span style="font-size: 1rem;">< <i class="fa fa-chart-bar"></i> + <i class="fa fa-robot"></i> >  Quantitative ecologist </span>
 
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -140,27 +134,15 @@ Publications {data-icon=book}
 #print_section(position_data, 'training')
 ```
 
-### Paying colonization credit with forest management could accelerate northward range shift of temperate trees
+### Environmental biases in the study of ecological networks at the planetary scale
 
-In preparation <a href="https://github.com/willvieira/ms_STM-managed"><i class="fa fa-github"></i></a>
-
-N/A
-
-2020
-
-- <span style="text-decoration: underline;">Vieira W.</span>, Boulangeat, I., Brice M.H., Bradley, R., Gravel, D.
-
-
-
-### Moderate disturbances accelerate forest transition dynamics under climate change in the temperate–boreal ecotone of eastern North America
-
-Global Change Biology <a href="https://doi.org/10.1111%2Fgcb.15143"><i class="ai ai-doi"></i></a> <a href="https://github.com/mhBrice/transition"><i class="fa fa-github"></i></a>
+BioRxiv - PrePrint <a href="https://doi.org/10.1101/2020.01.27.921429"><i class="ai ai-doi"></i></a>
 
 N/A
 
 2020
 
-- Brice M.H., Vissault S., <span style="text-decoration: underline;">Vieira W.</span>, Gravel, D., Legendre, P., Fortin, M.J.
+- Poisot, T., Bergeron, G., Cazelles, K., Dallas, T., Gravel, D., Macdonald, A., Mercier, B., Violet, C., Vissault, S.
 
 
 Selected Talks and Posters {data-icon=chalkboard-teacher}
