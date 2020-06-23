@@ -37,7 +37,6 @@ Contact {#contact}
 - <i class="fa fa-envelope"></i> benjamin.b.mercier@usherbrooke.ca
 - <i class="fa fa-twitter"></i> [BenMerSci](https://twitter.com/BenMerSci)
 - <i class="fa fa-github"></i> [BenMerSci](https://github.com/BenMerSci)
-- <i class="ai ai-google-scholar"></i> [Publications](https://scholar.google.com/citations?user=GyChlIoAAAAJ&hl=en)
 - <i class="ai ai-orcid"></i> [0000-0002-4104-9463](https://orcid.org/0000-0002-4104-9463)
 
 
@@ -73,13 +72,13 @@ The source code is available at [github.com/BenMerSci/cv](https://github.com/Ben
 
 Last updated on `r Sys.Date()`.
 
-[<i class='fas fa-download'></i> Download a PDF of this CV](https://willvieira.github.io/cv/BenMerSci.pdf)
+[<i class='fas fa-download'></i> Download a PDF of this CV](https://BenMerSci.github.io/cv/BenMerSci.pdf)
 
 
 Main
 ================================================================================
 
- <span style="font-weight:600">BenMerSci</span> <span style="font-size: 13px;">B.Sc. in Ecology</span>{#title}
+ <span style="font-weight:600">Benjamin Mercier</span> <span style="font-size: 13px;">B.Sc. in Ecology</span>{#title}
 --------------------------------------------------------------------------------
 
 
@@ -93,6 +92,13 @@ Education {data-icon=graduation-cap data-concise=true}
 print_section(position_data, 'education')
 ```
 
+
+Scholarship {data-icon=certificate}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'scholarship')
+```
 
 
 Research Experience {data-icon=laptop}
@@ -109,6 +115,7 @@ Teaching Experience {data-icon=chalkboard-teacher}
 ```{r}
 print_section(position_data, 'teaching_positions')
 ```
+
 
 Training {data-icon=certificate}
 --------------------------------------------------------------------------------
