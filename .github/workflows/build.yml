@@ -50,7 +50,15 @@ jobs:
           sudo apt-get install libmagick++-dev
 
       - name: Install R dependencies
-        run: Rscript -e "install.packages(c('glue', 'tidyverse', 'readr', 'rmarkdown', 'pagedown', 'rorcid', 'rcrossref'))"
+        run: Rscript -e "packages <- c("glue","tidyverse","readr","rmkardown","pagedown","rorcid","rcrossref")
+        invisible(
+          lapply(packages, function(x) {
+            if(!is.element(x, installed.packages())){
+              install.packages(x, verbose = FALSE, quiet = TRUE)
+            }
+          })
+        )
+        "
 
       - name: Build html
         run: Rscript -e "rmarkdown::render('index.Rmd')"
