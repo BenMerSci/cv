@@ -13,18 +13,18 @@
 
 h1 {
   text-transform: capitalize;
-  color: rgb(32, 53, 104);
+  color: rgb(37, 130, 201);
   font-weight: 600;
 }
 
 .aside h2 {
   font-weight: 500;
   font-size: 1rem;
-  color: rgb(32, 53, 104);
+  color: rgb(30, 77, 114);
 }
 
 .aside {
-  background-color: rgb(255, 227, 200);
+  background-color: rgb(217, 236, 247);
   padding-top: 0px;
   padding-right: 7px;
   padding-bottom: 0px;
@@ -48,7 +48,7 @@ h1 {
 }
 
 a {
-  color: rgb(162, 214, 253);
+  color: rgb(57, 137, 197);
 
 }
 
@@ -57,11 +57,11 @@ a {
 }
 
 .pagedjs_page:first-of-type {
-  --sidebar-background-color: rgb(255, 227, 200);
+  --sidebar-background-color: rgb(217, 236, 247);
 }
 
 .pagedjs_page:not(:first-of-type) {
-  --sidebar-background-color: rgb(255, 227, 200);
+  --sidebar-background-color: rgb(217, 236, 247);
   --sidebar-width: 2rem;
   --main-width: calc(var(--content-width) - var(--sidebar-width));
   --pagedjs-margin-top: 0.5in;

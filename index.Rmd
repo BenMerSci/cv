@@ -33,11 +33,10 @@ Aside
 
 Contact {#contact}
 --------------------------------------------------------------------------------
-
-- <i class="fa fa-envelope"></i> benjamin.b.mercier@usherbrooke.ca
+- <i class="fa fa-envelope"></i> <a href="mailto:benjamin.b.mercier@usherbrooke.ca">Email</a>
 - <i class="fa fa-twitter"></i> [BenMerSci](https://twitter.com/BenMerSci)
 - <i class="fa fa-github"></i> [BenMerSci](https://github.com/BenMerSci)
-- <i class="ai ai-orcid"></i> [0000-0002-4104-9463](https://orcid.org/0000-0002-4104-9463)
+- <p style="font-size:12.5px"> <i class="ai ai-orcid"></i> [0000-0002-4104-9463](https://orcid.org/0000-0002-4104-9463)</p>
 
 
 Quantitative skills
@@ -49,18 +48,18 @@ Regression, Basic knowledge in different modelling techniques (RandomForest, SDM
 Programming skills
 ------------------------------------
 
-<span style="font-weight:600;">Data analysis</span>: <br>R - 60%, <br>Julia - 15%<br>
+<span style="font-weight:600;">Data analysis</span>: <br>R, Julia<br>
 
-<span style="font-weight:600;">Data base</span>: SQLite (Basic knowledge)<br>
+<span style="font-weight:600;">Data base</span>: <br>SQLite <br>(Basic knowledge)<br>
 
-<span style="font-weight:600;">Automation/reports</span>: <br>Rmarkdown, Git, bash<br> 
+<span style="font-weight:600;">Automation/reports</span>: <br>Rmarkdown, Git, Bash, LaTeX<br> 
 
 
 Languages
 ------------------------------------
 
 **French**<span style="font-size:11px;"> Native</span><br>
-**English**<span style="font-size:11px;"> Full Professional</span><br>
+**English**<span style="font-size:11px;"> Level B2</span><br>
 
 
 Disclaimer {#disclaimer}
@@ -82,7 +81,7 @@ Main
 --------------------------------------------------------------------------------
 
 
-<span style="font-size: 1rem;">< <i class="fa fa-chart-bar"></i> + <i class="fa fa-robot"></i> >  Quantitative ecologist </span>
+<span style="font-size: 1rem;">< <i class="fa fa-bar-chart"></i> + <i class="fa fa-laptop"></i> > Aspiring quantitative ecologist </span>
 
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -149,8 +148,19 @@ N/A
 
 2020
 
-- Poisot, T., Bergeron, G., Cazelles, K., Dallas, T., Gravel, D., Macdonald, A., Mercier, B., Violet, C., Vissault, S.
+- Poisot T, Bergeron G, Cazelles K, Dallas T, Gravel D, Macdonald A, Mercier B, Violet C, Vissault S.
 
+### R package - [rmangal](https://docs.ropensci.org/rmangal/)
+
+N/A
+
+N/A
+
+2019
+
+- Vissault S, Cazelles K, Bergeron G, Mercier B, Violet C, Gravel D,
+Poisot T (2019). _rmangal: An R package to interact with Mangal
+database_. R package version 2.0.0.
 
 Selected Talks and Posters {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------

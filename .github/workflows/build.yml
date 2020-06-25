@@ -50,7 +50,7 @@ jobs:
           sudo apt-get install libmagick++-dev
 
       - name: Install R dependencies
-        run: Rscript -e "install.packages(c("glue","tidyverse","readr","rmkardown","pagedown","rorcid","rcrossref")"
+        run: Rscript -e "install.packages(c("glue","tidyverse","readr","rmkardown","pagedown","rorcid","rcrossref"))"
 
       - name: Build html
         run: Rscript -e "rmarkdown::render('index.Rmd')"
@@ -62,7 +62,7 @@ jobs:
         run: |
           mkdir docs
           mv index.html docs/index.html
-          mv index.pdf docs/BenjaminMercier.pdf
+          mv index.pdf docs/BenMerSci.pdf
       
       - name: Deploy gh_pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
