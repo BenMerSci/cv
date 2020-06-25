@@ -36,7 +36,7 @@ Contact {#contact}
 - <i class="fa fa-envelope"></i> <a href="mailto:benjamin.b.mercier@usherbrooke.ca">Email</a>
 - <i class="fa fa-twitter"></i> [BenMerSci](https://twitter.com/BenMerSci)
 - <i class="fa fa-github"></i> [BenMerSci](https://github.com/BenMerSci)
-- <p style="font-size:12.5px"> <i class="ai ai-orcid"></i> [0000-0002-4104-9463](https://orcid.org/0000-0002-4104-9463)</p>
+- <i class="ai ai-orcid"></i> [0000-0002-4104-9463](https://orcid.org/0000-0002-4104-9463)
 
 
 Quantitative skills
