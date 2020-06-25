@@ -23,7 +23,7 @@ sanitize_links <- function(text){
         links <<- c(links, link)
         
         # Build replacement text
-        new_text <- glue('{title}<sup>{length(links)}</sup>')
+        new_text <- glue("{title}<sup>{length(links)}</sup>")
         
         # Replace text
         text <<- text %>% str_replace(fixed(link_from_text), new_text)
