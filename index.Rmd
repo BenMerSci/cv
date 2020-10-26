@@ -50,7 +50,7 @@ Programming skills
 
 <span style="font-weight:600;">Data analysis</span>: <br>R, Julia<br>
 
-<span style="font-weight:600;">Data base</span>: <br>SQLite <br>(Basic knowledge)<br>
+<span style="font-weight:600;">Data base</span>: <br>SQL <br>(Basic knowledge)<br>
 
 <span style="font-weight:600;">Automation/reports</span>: <br>Rmarkdown, Git, Bash, LaTeX<br> 
 
