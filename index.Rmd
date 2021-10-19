@@ -99,34 +99,8 @@ Scholarship {data-icon=certificate}
 print_section(position_data, 'scholarship')
 ```
 
-
-Research Experience {data-icon=laptop}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'research_positions')
-```
-
-
-Teaching Experience {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'teaching_positions')
-```
-
-
-Training {data-icon=certificate}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'training')
-```
-
-
 Publications {data-icon=book}
 --------------------------------------------------------------------------------
-
 
 ```{r}
 # TODO automate it
@@ -140,15 +114,35 @@ Publications {data-icon=book}
 #print_section(position_data, 'training')
 ```
 
-### Environmental biases in the study of ecological networks at the planetary scale
+### Food web reconstruction through phylogenetic transfer of low-rank network representation
 
-BioRxiv - PrePrint <a href="https://doi.org/10.1101/2020.01.27.921429"><i class="ai ai-doi"></i></a>
+Submitted at Ecology Letters - <a href="https://ecoevorxiv.org/y7sdz/"><i class="ai ai-doi"></i></a>
 
 N/A
 
-2020
+2021
 
-- Poisot T, Bergeron G, Cazelles K, Dallas T, Gravel D, Macdonald A, Mercier B, Violet C, Vissault S.
+- T Strydom, S ouskila, F Banville, C Barros, D Caron, M J.Farrell, MJ Fortin, V Hemming, B Mercier, L J.Pollock, R Runghen, G V.Dalla Riva, T poisot
+
+### A roadmap towards predicting species interaction networks (across space and time)
+
+Philosophical Transactions of the Royal Society B <a href="https://doi.org/10.1098/rstb.2021.0063"><i class="ai ai-doi"></i></a>
+
+N/A
+
+2021
+
+- T Strydom, MD Catchen, F Banville, D Caron, G Dansereau, P Desjardins-Proulx, NR Forero-Muñoz, G Higino, B Mercier, A Gonzalez, D Gravel, L Pollock, T Poisot
+
+### Global knowledge gaps in species interaction networks data
+
+Journal of Biogeography <a href="https://doi.org/10.1111/jbi.14127"><i class="ai ai-doi"></i></a>
+
+N/A
+
+2021
+
+- T Poisot, G Bergeron, K Cazelles, T Dallas, D Gravel, A Macdonald, B Mercier, C Violet, S Vissault.
 
 ### R package - [rmangal](https://docs.ropensci.org/rmangal/)
 
@@ -167,4 +161,25 @@ Selected Talks and Posters {data-icon=chalkboard-teacher}
 
 ```{r}
 print_section(position_data, 'talk_poster')
+```
+
+Research Experience {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'research_positions')
+```
+
+Teaching Experience {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'teaching_positions')
+```
+
+Training {data-icon=certificate}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'training')
 ```
