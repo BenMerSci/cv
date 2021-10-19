@@ -176,10 +176,3 @@ Teaching Experience {data-icon=chalkboard-teacher}
 ```{r}
 print_section(position_data, 'teaching_positions')
 ```
-
-Training {data-icon=certificate}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'training')
-```
