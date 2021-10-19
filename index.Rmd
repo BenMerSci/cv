@@ -77,7 +77,7 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
- <span style="font-weight:600">Benjamin Mercier</span> <span style="font-size: 13px;">B.Sc. in Ecology</span>{#title}
+ <span style="font-weight:600">Benjamin Mercier</span> <span style="font-size: 13px;">MSc student in Ecology</span>{#title}
 --------------------------------------------------------------------------------
 
 
