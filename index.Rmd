@@ -34,7 +34,6 @@ Aside
 Contact {#contact}
 --------------------------------------------------------------------------------
 - <i class="fa fa-envelope"></i> <a href="mailto:benjamin.b.mercier@usherbrooke.ca">Email</a>
-- <i class="fa fa-twitter"></i> [BenMerSci](https://twitter.com/BenMerSci)
 - <i class="fa fa-github"></i> [BenMerSci](https://github.com/BenMerSci)
 - <i class="ai ai-orcid"></i> [0000-0002-4104-9463](https://orcid.org/0000-0002-4104-9463)
 
@@ -42,17 +41,17 @@ Contact {#contact}
 Quantitative skills
 ------------------------------------
 
-Starting in Bayesian statistics, Basic knowledge in different modelling techniques (RandomForest, SDM, JSDM)
+Bayesian statistics, Data manipulation, Data visualization
 
 
 Programming skills
 ------------------------------------
 
-<span style="font-weight:600;">Data analysis</span>: <br>R, Julia<br>
+<span style="font-weight:600;">Data analysis</span>: <br>R<br>
 
-<span style="font-weight:600;">Database</span>: <br>SQL <br>(Basic knowledge)<br>
+<span style="font-weight:600;">Database</span>: <br>SQL - Postgres<br>
 
-<span style="font-weight:600;">Automation/reports</span>: <br>Markdown,LaTeX, Git, Bash<br> 
+<span style="font-weight:600;">Automation/reports</span>: <br>Git, Markdown, LaTeX<br> 
 
 
 Languages
@@ -77,11 +76,11 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
- <span style="font-weight:600">Benjamin Mercier</span> <span style="font-size: 13px;">MSc student in Ecology</span>{#title}
+ <span style="font-weight:600">Benjamin Mercier</span> <span style="font-size: 13px;">M.Sc. student in Ecology</span>{#title}
 --------------------------------------------------------------------------------
 
 
-<span style="font-size: 1rem;">< <i class="fa fa-bar-chart"></i> + <i class="fa fa-laptop"></i> > Aspiring quantitative ecologist </span>
+<span style="font-size: 1rem;">< <i class="fa fa-bar-chart"></i> + <i class="fa fa-laptop"></i> > Quantitative ecologist </span>
 
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -91,6 +90,34 @@ Education {data-icon=graduation-cap data-concise=true}
 print_section(position_data, 'education')
 ```
 
+Work {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'work')
+```
+
+Internship {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'internship')
+```
+
+
+Volunteering {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'volunteering')
+```
+
+Selected Talks and Posters {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
+
+```{r}
+print_section(position_data, 'talk_poster')
+```
 
 Scholarship {data-icon=certificate}
 --------------------------------------------------------------------------------
@@ -98,6 +125,7 @@ Scholarship {data-icon=certificate}
 ```{r}
 print_section(position_data, 'scholarship')
 ```
+
 
 Publications {data-icon=book}
 --------------------------------------------------------------------------------
@@ -114,13 +142,23 @@ Publications {data-icon=book}
 #print_section(position_data, 'training')
 ```
 
-### Food web reconstruction through phylogenetic transfer of low-rank network representation
+### Graph embedding and transfer learning can help predict potential species interaction networks despite data limitations
 
-Submitted at Ecology Letters - <a href="https://ecoevorxiv.org/y7sdz/"><i class="ai ai-doi"></i></a>
+Methods in Ecology and Evolution - <a href=" https://doi.org/10.1111/2041-210X.14228"><i class="ai ai-doi"></i></a>
 
 N/A
 
-2021
+2023
+
+- T Strydom, S Bouskila, F Banville, C Barros, D Caron, M J.Farrell, MJ Fortin, B Mercier, L J.Pollock, R Runghen, G V.Dalla Riva, T Poisot
+
+### Food web reconstruction through phylogenetic transfer of low-rank network representation
+
+Methods in Ecology and Evolution - <a href="https://doi.org/10.1111/2041-210X.13835"><i class="ai ai-doi"></i></a>
+
+N/A
+
+2022
 
 - T Strydom, S ouskila, F Banville, C Barros, D Caron, M J.Farrell, MJ Fortin, V Hemming, B Mercier, L J.Pollock, R Runghen, G V.Dalla Riva, T poisot
 
@@ -155,24 +193,3 @@ N/A
 - Vissault S, Cazelles K, Bergeron G, Mercier B, Violet C, Gravel D,
 Poisot T (2019). _rmangal: An R package to interact with Mangal
 database_. R package version 2.0.0.
-
-Selected Talks and Posters {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'talk_poster')
-```
-
-Research Experience {data-icon=laptop}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'research_positions')
-```
-
-Teaching Experience {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'teaching_positions')
-```
