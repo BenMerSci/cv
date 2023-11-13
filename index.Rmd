@@ -47,7 +47,7 @@ Bayesian statistics, Data manipulation, Data visualization
 Programming skills
 ------------------------------------
 
-<span style="font-weight:600;">Data analysis</span>: <br>R<br>
+<span style="font-weight:600;">Data analysis</span>: <br>R, Stan<br>
 
 <span style="font-weight:600;">Database</span>: <br>SQL - Postgres<br>
 
