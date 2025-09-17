@@ -1,6 +1,6 @@
 ---
-title: "Benjamin's CV"
-author: Benjamin Mercier
+title: "user"
+author: user
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -33,103 +33,67 @@ Aside
 
 Contact {#contact}
 --------------------------------------------------------------------------------
-- <i class="fa fa-envelope"></i> <a href="mailto:benjamin.b.mercier@usherbrooke.ca">Email</a>
-- <i class="fa fa-github"></i> [BenMerSci](https://github.com/BenMerSci)
-- <i class="ai ai-orcid"></i> [0000-0002-4104-9463](https://orcid.org/0000-0002-4104-9463)
+- <i class="fa fa-github"></i> [user](https://github.com/user)
+- <i class="fa-brands fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/mon-nom-2504321b0/)
+- <i class="fa fa-envelope"></i> <a href="mailto:test@icloud.com">Courriel</a>
 
 
-Quantitative skills
+
+Compétences techniques
+------------------------------------
+<span style="font-weight:600;">Base de données</span>:
+<span style="font-weight:600;">analyses</span>: <br> Statistique bayesienne (Stan), modèles hiérarchiques <br>
+
+
+
 ------------------------------------
 
-Bayesian statistics, Data manipulation, Data visualization
-
-
-Programming skills
-------------------------------------
-
-<span style="font-weight:600;">Data analysis</span>: <br>R, Stan<br>
-
-<span style="font-weight:600;">Database</span>: <br>SQL - Postgres<br>
+ <br>SQL - Postgres<br>
 
 <span style="font-weight:600;">Automation/reports</span>: <br>Git, Markdown, LaTeX<br> 
 
 
 Languages
 ------------------------------------
-
-**French**<span style="font-size:11px;"> Native</span><br>
-**English**<span style="font-size:11px;"> Level B2</span><br>
-
-
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
-
-Made with [**pagedown**](https://github.com/rstudio/pagedown).
-
-The source code is available at [github.com/BenMerSci/cv](https://github.com/BenMerSci/cv).
-
-Last updated on `r Sys.Date()`.
-
-[<i class='fas fa-download'></i> Download a PDF of this CV](https://BenMerSci.github.io/cv/BenMerSci.pdf)
+**Français**<span style="font-size:11px;"> Langue maternelle</span><br>
+**Anglais**<span style="font-size:11px;"> Niveau B2</span><br>
 
 
 Main
 ================================================================================
 
- <span style="font-weight:600">Benjamin Mercier</span> <span style="font-size: 13px;">M.Sc. student in Ecology</span>{#title}
+ <span style="font-weight:600">Mon nom</span> <span style="font-size: 13px;">M.Sc.</span>{#title}
 --------------------------------------------------------------------------------
 
+ 
+<span style="font-size: 1rem;">< <i class="fa fa-bar-chart"></i> + <i class="fa fa-laptop"></i> > Bioinformaticien </span>
 
-<span style="font-size: 1rem;">< <i class="fa fa-bar-chart"></i> + <i class="fa fa-laptop"></i> > Quantitative ecologist </span>
-
-
-Education {data-icon=graduation-cap data-concise=true}
+Expériences professionnelles {data-icon=laptop}
 --------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'education')
-```
-
-Work {data-icon=laptop}
---------------------------------------------------------------------------------
-
 ```{r}
 print_section(position_data, 'work')
 ```
 
-Internship {data-icon=laptop}
+Diplômes {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
-
 ```{r}
-print_section(position_data, 'internship')
+print_section(position_data, 'education')
 ```
 
-
-Volunteering {data-icon=chalkboard-teacher}
+Enseignements {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
+```{r}
+print_section(position_data, 'teach')
+```
 
+Bénévolat {data-icon=chalkboard-teacher}
+--------------------------------------------------------------------------------
 ```{r}
 print_section(position_data, 'volunteering')
 ```
 
-Selected Talks and Posters {data-icon=chalkboard-teacher}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'talk_poster')
-```
-
-Scholarship {data-icon=certificate}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'scholarship')
-```
-
-
 Publications {data-icon=book}
 --------------------------------------------------------------------------------
-
 ```{r}
 # TODO automate it 
 # Load publications from ORCID
