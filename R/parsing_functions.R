@@ -71,10 +71,20 @@ print_section <- function(position_data, section_id){
         glue('{end} - {start}')
       ),
       description_bullets = ifelse(
-        no_descriptions,
-        ' ',
-        map_chr(descriptions, ~paste('-', ., collapse = '\n'))
-      )
+  no_descriptions,
+  ' ',
+  map_chr(descriptions, function(descs) {
+    # descs is a character vector (possibly length >1) — remove NA
+    items <- descs[!is.na(descs)]
+    if(length(items) == 0) return(' ')
+    # escape any HTML-sensitive characters? (optional)
+    # items <- htmltools::htmlEscape(items)
+
+    items_html <- paste0("<li>", items, "</li>", collapse = "\n")
+    # inline style ensures color if external CSS is stubborn
+    paste0("<div class='desc' style='color:#000000 !important;'><ul>", items_html, "</ul></div>")
+  })
+)
     ) %>% 
     strip_links_from_cols(c('title', 'description_bullets')) %>% 
     mutate_all(~ifelse(is.na(.), 'N/A', .)) %>% 

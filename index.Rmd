@@ -27,7 +27,7 @@ source('R/parsing_functions.R')
 position_data <- readr::read_csv('data/positions.csv')
 ```
 
-
+ 
 Aside
 ================================================================================
 
