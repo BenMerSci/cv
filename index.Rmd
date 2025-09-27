@@ -94,17 +94,6 @@ print_section(position_data, 'volunteering')
 
 Publications {data-icon=book}
 --------------------------------------------------------------------------------
-```{r}
-# TODO automate it 
-# Load publications from ORCID
-#my_dois <- try(rorcid::identifiers(rorcid::works("0000-0003-0283-4570")))
-#pubs <- rcrossref::cr_cn(dois = my_dois, format = "text")
-
-# Add my name in bold and convert DOI in a link
-#fixedPubs <- lapply(pubs, editRefs)
-
-#print_section(position_data, 'training')
-```
 
 ### Graph embedding and transfer learning can help predict potential species interaction networks despite data limitations
 
@@ -114,7 +103,7 @@ N/A
 
 2023
 
-- T Strydom, S Bouskila, F Banville, C Barros, D Caron, M J.Farrell, MJ Fortin, B Mercier, L J.Pollock, R Runghen, G V.Dalla Riva, T Poisot
+- <span style="color:#000000 !important;">T Strydom, S Bouskila, F Banville, C Barros, D Caron, M J.Farrell, MJ Fortin, B Mercier, L J.Pollock, R Runghen, G V.Dalla Riva, T Poisot</span>
 
 ### Food web reconstruction through phylogenetic transfer of low-rank network representation
 
@@ -124,7 +113,7 @@ N/A
 
 2022
 
-- T Strydom, S ouskila, F Banville, C Barros, D Caron, M J.Farrell, MJ Fortin, V Hemming, B Mercier, L J.Pollock, R Runghen, G V.Dalla Riva, T poisot
+- <span style="color:#000000 !important;">T Strydom, S ouskila, F Banville, C Barros, D Caron, M J.Farrell, MJ Fortin, V Hemming, B Mercier, L J.Pollock, R Runghen, G V.Dalla Riva, T poisot</span>
 
 ### A roadmap towards predicting species interaction networks (across space and time)
 
@@ -134,7 +123,7 @@ N/A
 
 2021
 
-- T Strydom, MD Catchen, F Banville, D Caron, G Dansereau, P Desjardins-Proulx, NR Forero-Muñoz, G Higino, B Mercier, A Gonzalez, D Gravel, L Pollock, T Poisot
+- <span style="color:#000000 !important;">T Strydom, MD Catchen, F Banville, D Caron, G Dansereau, P Desjardins-Proulx, NR Forero-Muñoz, G Higino, B Mercier, A Gonzalez, D Gravel, L Pollock, T Poisot</span>
 
 ### Global knowledge gaps in species interaction networks data
 
@@ -144,7 +133,7 @@ N/A
 
 2021
 
-- T Poisot, G Bergeron, K Cazelles, T Dallas, D Gravel, A Macdonald, B Mercier, C Violet, S Vissault.
+- <span style="color:#000000 !important;">T Poisot, G Bergeron, K Cazelles, T Dallas, D Gravel, A Macdonald, B Mercier, C Violet, S Vissault.</span>
 
 ### R package - [rmangal](https://docs.ropensci.org/rmangal/)
 
@@ -154,6 +143,6 @@ N/A
 
 2019
 
-- Vissault S, Cazelles K, Bergeron G, Mercier B, Violet C, Gravel D,
+- <span style="color:#000000 !important;">Vissault S, Cazelles K, Bergeron G, Mercier B, Violet C, Gravel D,
 Poisot T (2019). _rmangal: An R package to interact with Mangal
-database_. R package version 2.0.0.
+database_. R package version 2.0.0.</span>

@@ -11,16 +11,16 @@
 }
 h1 {
   text-transform: capitalize;
-  color: rgb(210, 9, 207);
+  color: rgb(32, 53, 104);
   font-weight: 600;
 }
 .aside h2 {
   font-weight: 500;
   font-size: 1rem;
-  color: rgb(41, 47, 92);
+  color: rgb(32, 53, 104);
 }
 .aside {
-  background-color: rgb(201, 219, 195);
+  background-color: rgb#9ad6ee;
   padding-top: 0px;
   padding-right: 0px;
   padding-bottom: 0px;
@@ -42,13 +42,13 @@ h1 {
   text-align: left;
 }
 a {
-  color: rgb(73, 169, 228);
+  color: rgb(211, 88, 49);
 }
 .aside .level2 {
   margin-top: 0.3in;
 }
 .pagedjs_first_page {
-  --sidebar-background-color: rgb(213, 195, 219);
+  --sidebar-background-color: rgb(255, 227, 200);
   --sidebar-width: 11rem;
   --pagedjs-margin-bottom: 0.5in !important;
   --main-width: calc(var(--content-width) - var(--sidebar-width)) !important;
@@ -57,7 +57,7 @@ a {
 .pagedjs_page {
   --pagedjs-margin-right: 0.25in !important;
   --pagedjs-margin-top: 0.1in;
-  --sidebar-background-color: rgb(201, 219, 195);
+  --sidebar-background-color: rgb(255, 227, 200);
 }
 #overlay {
   display: block;
@@ -103,23 +103,61 @@ a {
 }
 
 
-#title {
+/*#title {
   color: #000000 !important;   /* or whatever color */
 }
 
 /* Force all bullet point text in the main body to black */
-.main {
+/*.main {
   color: #000000;
 }
 
-.aside .level2 {
+/*.aside .level2 {
   color: #000000 !important;
 }
 
-.desc ul {
+./*desc ul {
   margin: 0.2rem 0 0.8rem 1rem;
 }
-.desc li {
+/*.desc li {
   line-height: 1.25;
   color: #000000 !important; /* redundant but safe */
+}
+
+/* Fix grey dates on the left - pagedown puts dates in .date class */
+/*.date {
+    color: #000000 !important;
+    font-weight: 500 !important;
+}
+
+/* Fix all text in main content area */
+/*.main p, 
+.main .blocks,
+.main .concise .details,
+.main .details {
+    color: #000000 !important;
+}
+
+/* Specifically target author names and publication details */
+/*.main .details p,
+.main .details div {
+    color: #000000 !important;
+}
+
+/* Nuclear option for all main content */
+/*.main * {
+    color: #000000 !important;
+}
+
+/* Make sure dates in timeline are visible */
+/*.main .timeline,
+.timeline {
+    color: #000000 !important;
+    font-weight: 500 !important;
+}
+
+/* Override any inherited grey colors */
+/*.pagedjs_page .main,
+.pagedjs_page .main * {
+    color: #000000 !important;
 }
