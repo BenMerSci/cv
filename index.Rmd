@@ -38,26 +38,27 @@ Contact {#contact}
 - <i class="fa fa-envelope"></i> <a href="mailto:test@icloud.com">Courriel</a>
 
 
-
 Compétences techniques
 ------------------------------------
-<span style="font-weight:600;">Base de données</span>:
-<span style="font-weight:600;">analyses</span>: <br> Statistique bayesienne (Stan), modèles hiérarchiques <br>
-
-
-
-------------------------------------
-
- <br>SQL - Postgres<br>
-
-<span style="font-weight:600;">Automation/reports</span>: <br>Git, Markdown, LaTeX<br> 
-
+<span style="font-weight:600;">Base de données</span>: <br> PostgreSQL <br><br>
+<span style="font-weight:600;">Langages</span>: <br> R, Python <br><br>
+<span style="font-weight:600;">Analyses et modélisation</span>: <br> Statistique bayesienne (Stan), Statistique fréquentiste de base, modèles hiérarchiques <br><br>
+<span style="font-weight:600;">Développement et outils</span>: <br> Git, Docker</span> <br><br>
+<span style="font-weight:600;">Rapports</span>: <br> Rmarkdown, Shiny
 
 Languages
 ------------------------------------
 **Français**<span style="font-size:11px;"> Langue maternelle</span><br>
 **Anglais**<span style="font-size:11px;"> Niveau B2</span><br>
 
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
+
+Fait avec [**pagedown**](https://github.com/rstudio/pagedown).
+
+Dernière mise à jour le `r Sys.Date()`.
+
+[<i class='fas fa-download'></i> Version PDF](https://BenMerSci.github.io/cv/BenMerSci.pdf)
 
 Main
 ================================================================================
@@ -103,7 +104,7 @@ N/A
 
 2023
 
-- <span style="color:#000000 !important;">T Strydom, S Bouskila, F Banville, C Barros, D Caron, M J.Farrell, MJ Fortin, B Mercier, L J.Pollock, R Runghen, G V.Dalla Riva, T Poisot</span>
+- T Strydom, S Bouskila, F Banville, C Barros, D Caron, M J.Farrell, MJ Fortin, B Mercier, L J.Pollock, R Runghen, G V.Dalla Riva, T Poisot
 
 ### Food web reconstruction through phylogenetic transfer of low-rank network representation
 
@@ -113,7 +114,7 @@ N/A
 
 2022
 
-- <span style="color:#000000 !important;">T Strydom, S ouskila, F Banville, C Barros, D Caron, M J.Farrell, MJ Fortin, V Hemming, B Mercier, L J.Pollock, R Runghen, G V.Dalla Riva, T poisot</span>
+- T Strydom, S ouskila, F Banville, C Barros, D Caron, M J.Farrell, MJ Fortin, V Hemming, B Mercier, L J.Pollock, R Runghen, G V.Dalla Riva, T poisot
 
 ### A roadmap towards predicting species interaction networks (across space and time)
 
@@ -123,7 +124,7 @@ N/A
 
 2021
 
-- <span style="color:#000000 !important;">T Strydom, MD Catchen, F Banville, D Caron, G Dansereau, P Desjardins-Proulx, NR Forero-Muñoz, G Higino, B Mercier, A Gonzalez, D Gravel, L Pollock, T Poisot</span>
+- T Strydom, MD Catchen, F Banville, D Caron, G Dansereau, P Desjardins-Proulx, NR Forero-Muñoz, G Higino, B Mercier, A Gonzalez, D Gravel, L Pollock, T Poisot
 
 ### Global knowledge gaps in species interaction networks data
 
@@ -133,7 +134,7 @@ N/A
 
 2021
 
-- <span style="color:#000000 !important;">T Poisot, G Bergeron, K Cazelles, T Dallas, D Gravel, A Macdonald, B Mercier, C Violet, S Vissault.</span>
+- T Poisot, G Bergeron, K Cazelles, T Dallas, D Gravel, A Macdonald, B Mercier, C Violet, S Vissault.
 
 ### R package - [rmangal](https://docs.ropensci.org/rmangal/)
 
@@ -143,6 +144,6 @@ N/A
 
 2019
 
-- <span style="color:#000000 !important;">Vissault S, Cazelles K, Bergeron G, Mercier B, Violet C, Gravel D,
+- Vissault S, Cazelles K, Bergeron G, Mercier B, Violet C, Gravel D,
 Poisot T (2019). _rmangal: An R package to interact with Mangal
-database_. R package version 2.0.0.</span>
+database_. R package version 2.0.0.
