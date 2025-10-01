@@ -4,4 +4,3 @@ stage 2 || 2018-03-18 à 2018-04-14 || 140h || stagiaire laboratoire Marc Bélis
 stage 3 || 2018-10-01 à 2018-12-21 || ??   || stagiaire université de Montréal Yves Prairie (35h/semaine)
 stage 4 || 2019-01-06 à 2019-04-20 || 525h || stagiaire laboratoire Dominique Gravel 
 
-
